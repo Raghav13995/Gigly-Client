@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const request = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://gigly-server.onrender.com",
     withCredentials: true,
 });
 
