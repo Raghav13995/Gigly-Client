@@ -13,6 +13,7 @@ const Gigs = () => {
   const minRef = useRef();
   const maxRef = useRef();
 
+  
   const { data, isError, isLoading, refetch } = useQuery({
     queryKey: ["gigs"],
     queryFn: () => {
